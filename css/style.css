@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-}/* Components *//* Core *//* Layout */#ico-menu {
+}/* Components *//* Core *//* Layout */.btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,7 +13,7 @@
   background-color: #0271bc;
 }
 
-#ico-menu > img {
+.ico-menu {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
