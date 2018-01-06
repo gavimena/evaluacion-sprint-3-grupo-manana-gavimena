@@ -7,11 +7,13 @@
 }
 
 .hero-text {
-  padding: 284px 15px 174px 15px;
+  padding-top: 89%;
+  padding-left: 15px;
+  padding-right: 15px;
   color: $secondary-color;
 }
 
-.hero-text > h1 {
+.hero-text-title {
   font-family: $secondary-font;
   font-weight: bold;
   font-size: 42px;
@@ -20,15 +22,8 @@
   text-align: center;
 }
 
-.hero-text > p {
+.hero-text-paragraph {
   font-family: $primary-font;
   text-align: center;
-  padding-top: 10px;
-}
-
-.btn-down {
-  width: 45px;
-  height: 45px;
-  border-radius: 22.5px;
-  background-color: $secondary-color;
+  padding-top: 4%;
 }

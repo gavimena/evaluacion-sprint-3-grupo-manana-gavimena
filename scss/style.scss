@@ -1,6 +1,9 @@
+@import 'layout/common';
 @import 'core/variables'; //core
 @import 'pages/home'; //pages
 @import 'components/hero'; //components
+@import 'layout/header'; //layout
+@import 'components/buttons'; //components
 
 /* Components */
 @import 'components/typography';
@@ -9,6 +12,5 @@
 
 
 /* Layout */
-@import 'layout/header';
+
 @import 'layout/footer';
-@import 'layout/common';
