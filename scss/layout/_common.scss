@@ -3,3 +3,8 @@
   margin: 0;
   padding: 0;
 }
+
+#looking, #reasons, #footer {
+    padding-left: $container-space;
+    padding-right: $container-space;
+}

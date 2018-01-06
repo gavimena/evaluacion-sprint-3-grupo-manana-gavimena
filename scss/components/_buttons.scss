@@ -12,3 +12,17 @@
 .ico-down {
   margin: 0 auto;
 }
+
+.btn-go {
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px $action-color;
+    margin-top: 16%;
+}
+
+.go {
+    font-family: $primary-font;
+    color: $action-color;
+    text-align: center;
+}
