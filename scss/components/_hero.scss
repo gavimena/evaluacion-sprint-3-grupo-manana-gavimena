@@ -5,3 +5,30 @@
   background-position: center;
   min-height: 100vh;
 }
+
+.hero-text {
+  padding: 284px 15px 174px 15px;
+  color: $secondary-color;
+}
+
+.hero-text > h1 {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 55px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.hero-text > p {
+  font-family: $primary-font;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn-down {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $secondary-color;
+}

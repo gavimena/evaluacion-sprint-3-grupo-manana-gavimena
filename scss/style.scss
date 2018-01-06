@@ -1,3 +1,4 @@
+@import 'core/variables'; //core
 @import 'pages/home'; //pages
 @import 'components/hero'; //components
 
@@ -5,7 +6,7 @@
 @import 'components/typography';
 
 /* Core */
-@import 'core/variables';
+
 
 /* Layout */
 @import 'layout/header';
