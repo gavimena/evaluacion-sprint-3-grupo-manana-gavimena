@@ -21,12 +21,33 @@
     border: solid 2px $action-color;
     margin-top: 16%;
     display: flex;
+    margin-bottom: 15%;
 }
 
 .txt-go {
     font-family: $primary-font;
+    font-size: 1.2em;
     font-weight: 400;
     line-height: $font-space;
     color: $action-color;
+    margin: auto;
+}
+
+//Button more reasons from reasons section
+.btn-more-reasons {
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $action-color;
+    display: flex;
+    margin: 0 auto;
+}
+
+.txt-more-reasons {
+    font-family: $primary-font;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: $font-space;
+    color: $secondary-color;
     margin: auto;
 }

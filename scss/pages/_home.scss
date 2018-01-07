@@ -8,7 +8,7 @@
     line-height: 30px;
 }
 
-//Text looking Through from looking section
+//Title looking Through from looking section
 .looking-window {
     font-size: 24px;
     font-family: $secondary-font;
@@ -22,7 +22,24 @@
     margin-top: $container-space;
     font-family: $primary-font;
     font-size: 18px;
+    font-weight: 400;
     color: $dark-color;
     text-align: left;
     line-height: $font-space;
+}
+
+//Reasons section
+#reasons {
+    background-color: $lighter-color;
+}
+
+//Subtitle from reasons section
+.three-txt {
+    font-family: $secondary-font;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: $font-space;
+    text-align: center;
+    padding-top: 9%;
+    padding-bottom: 15%;
 }
