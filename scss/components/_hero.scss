@@ -1,27 +1,28 @@
-/*Hero*/
+//Hero background
 #hero {
-  background: url("/images/cover.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+    background: url("/images/cover.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
-.hero-text {
-  padding-top: 89%;
-  color: $secondary-color;
-}
-
+//Title from hero section
 .hero-text-title {
-  font-family: $secondary-font;
-  font-weight: bold;
-  font-size: 42px;
-  line-height: 55px;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  text-align: center;
+    padding-top: 89%;
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 42px;
+    color: $secondary-color;
+    line-height: 55px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
+//Text from hero section
 .hero-text-paragraph {
-  font-family: $primary-font;
-  text-align: center;
-  padding-top: 4%;
+    padding-top: 4%;
+    font-family: $primary-font;
+    font-weight: 300;
+    color: $secondary-color;
+    text-align: center;
 }

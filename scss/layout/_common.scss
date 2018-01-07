@@ -1,9 +1,11 @@
+//Geneeral styles
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+//Paddings right and left for sections
 #looking, #reasons, #footer {
     padding-left: $container-space;
     padding-right: $container-space;
