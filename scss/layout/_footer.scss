@@ -1,0 +1,18 @@
+.footer {
+    width: 320px;
+    height: 128px;
+    background-color: $dark-color;
+}
+
+.copyrght, .welove {
+    padding-top: 4%;
+    font-family: $primary-font;
+    font-size: 14px;
+    font-weight: 300;
+    color: $secondary-color;
+    text-align: center;
+}
+
+span {
+    color: $action-color;
+}
