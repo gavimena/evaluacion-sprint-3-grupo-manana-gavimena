@@ -2,13 +2,13 @@
 #hero {
     background: url("/images/cover.jpg") no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     min-height: 100vh;
 }
 
 //Title from hero section
 .hero-text-title {
-    padding-top: 89%;
+    padding-top: 50vh;
     font-family: $secondary-font;
     font-weight: 700;
     font-size: 42px;

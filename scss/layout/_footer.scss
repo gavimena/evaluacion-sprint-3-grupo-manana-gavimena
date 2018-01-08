@@ -1,16 +1,27 @@
+//Container footer
 .footer {
-    width: 320px;
+    width: 100%;
     height: 128px;
     background-color: $dark-color;
-}
-
-.copyrght, .welove {
-    padding-top: 4%;
     font-family: $primary-font;
     font-size: 14px;
     font-weight: 300;
     color: $secondary-color;
     text-align: center;
+}
+
+//Texts from footer
+.copyright, .welove {
+    font-family: $primary-font;
+    font-size: 14px;
+    font-weight: 300;
+    color: $secondary-color;
+    text-align: center;
+    line-height: 30px;
+}
+
+.copyright {
+    padding-top: 12%;
 }
 
 span {
