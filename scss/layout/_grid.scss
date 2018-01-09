@@ -1,7 +1,7 @@
 .grid-reasons{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 32% 32% 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .reason1 {
@@ -14,4 +14,27 @@
 
 .reason3 {
   grid-column: 2/4;
+}
+
+.btn-more-reasons {
+    grid-column: 2/4;
+    margin-top: 3em;
+}
+
+//Subtitle from reasons section
+.subtitle-reason {
+    font-family: $secondary-font;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: $font-space;
+    text-align: center;
+    padding-top: .6em;
+}
+
+.txt-reason {
+    font-family: $primary-font;
+    font-size: 18px;
+    line-height: $font-space;
+    text-align: center;
+    padding-bottom: 2em;
 }
