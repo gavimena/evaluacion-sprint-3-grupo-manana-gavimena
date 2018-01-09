@@ -25,9 +25,22 @@
 //Elements list from menu
 .menu-list {
     list-style: none;
+    display:block;
+    padding-top: 44px;
 }
 
-.menu_item {
-    list-style-type: none;
-    border-top: 1 solid $light-color;
+.menu-item {
+    padding: 10px 15px;
+    border-top: 1px solid rgba($light-color, 0.3);
+}
+.last-item {
+    border-bottom: 1px solid rgba($light-color, 0.3);
+}
+
+.menu-link {
+    font-family: $secondary-font;
+    font-weight: 300;
+    color: $dark-color;
+    display: block;
+    text-decoration: none;
 }

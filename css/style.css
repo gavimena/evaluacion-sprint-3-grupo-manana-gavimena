@@ -39,7 +39,6 @@
 
 #reasons {
   background-color: #eff9ff;
-  height: 37vh;
 }
 
 .three-txt {
@@ -48,8 +47,17 @@
   font-weight: 700;
   line-height: 30px;
   text-align: center;
-  padding-top: 9%;
+  padding-top: 10%;
   padding-bottom: 15%;
+}
+
+.subtitle-reason {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: .5em;
 }
 
 #hero {
@@ -106,11 +114,25 @@
 
 .menu-list {
   list-style: none;
+  display: block;
+  padding-top: 44px;
 }
 
-.menu_item {
-  list-style-type: none;
-  border-top: 1 solid #8ccbea;
+.menu-item {
+  padding: 10px 15px;
+  border-top: 1px solid rgba(140, 203, 234, 0.3);
+}
+
+.last-item {
+  border-bottom: 1px solid rgba(140, 203, 234, 0.3);
+}
+
+.menu-link {
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  color: #304268;
+  display: block;
+  text-decoration: none;
 }
 
 .grid-reasons {
@@ -139,6 +161,7 @@
   width: 44px;
   height: 44px;
   background-color: #0271bc;
+  border: none;
 }
 
 .ico-menu {
@@ -167,7 +190,7 @@
   border-radius: 22.5px;
   background-color: #ffffff;
   margin: 0 auto;
-  margin-top: 16%;
+  margin-top: 2.8em;
 }
 
 .ico-down {
