@@ -36,6 +36,10 @@
     background-color: $secondary-color;
     margin: 0 auto;
     margin-top: 2.8em;
+
+    @media all and (min-width: 768px) {
+        margin-top: 1.8em;
+    }
 }
 
 .ico-down {
@@ -44,13 +48,17 @@
 
 //Button go from looking section
 .btn-go {
-    width: 76px;
+    display: flex;
+    width: 25%;
     height: 45px;
     border-radius: 22.5px;
     border: solid 2px $action-color;
-    margin-top: 16%;
-    display: flex;
-    margin-bottom: 15%;
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+
+    @media all and (min-width: 768px) {
+        width: 12%;
+    }
 }
 
 .txt-go {
@@ -64,18 +72,24 @@
 
 //Button more reasons from reasons section
 .btn-more-reasons {
-    width: 184px;
+    width: 64%;
     height: 45px;
     border-radius: 22.5px;
     background-color: $action-color;
+    border-color: $action-color;
     display: flex;
     margin: 0 auto;
     margin-top: 2em;
+    margin-bottom: 5.2em;
+
+    @media all and (min-width: 768px) {
+        width: 29%;
+    }
 }
 
 .txt-more-reasons {
     font-family: $primary-font;
-    font-size: 1.2em;
+    font-size: 1.7em;
     font-weight: 400;
     line-height: $font-space;
     color: $secondary-color;

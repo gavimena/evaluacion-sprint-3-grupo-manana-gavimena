@@ -16,6 +16,11 @@
     line-height: 55px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        font-size: 80px;
+        line-height: 106px;
+    }
 }
 
 //Text from hero section
@@ -25,4 +30,8 @@
     font-weight: 300;
     color: $secondary-color;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        font-size: 24px;
+    }
 }

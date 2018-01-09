@@ -22,6 +22,10 @@
 
 .copyright {
     padding-top: 12%;
+
+    @media all and (min-width: 768px) {
+        padding-top: 5%;
+    }
 }
 
 span {

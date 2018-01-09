@@ -4,8 +4,12 @@
     font-family: $primary-font;
     font-size: 14px;
     text-align: left;
-    padding-top: 10%;
+    padding-top: 2.5em;
     line-height: 30px;
+
+    @media all and (min-width: 768px){
+
+    }
 }
 
 //Title looking Through from looking section
@@ -15,6 +19,11 @@
     font-weight: bold;
     text-align: left;
     line-height: $font-space;
+
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 45px;
+    }
 }
 
 //Paragraph from looking section
@@ -26,11 +35,16 @@
     color: $dark-color;
     text-align: left;
     line-height: $font-space;
+
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 //Reasons section
 #reasons {
     background-color: $lighter-color;
+    height: 100%;
 }
 
 //Title from reasons section
@@ -42,4 +56,11 @@
     text-align: center;
     padding-top: 10%;
     padding-bottom: 15%;
+
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 45px;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
 }

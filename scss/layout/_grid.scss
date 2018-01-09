@@ -1,19 +1,40 @@
 .grid-reasons{
     display: grid;
     grid-template-columns: 1fr 32% 32% 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 7%;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 95%;
+    margin: auto;
+
+    @media all and (min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 
 .reason1 {
-  grid-column: 2/4;
+    grid-column: 2/4;
+
+    @media all and (min-width: 768px) {
+        grid-column: 1;
+    }
+
 }
 
 .reason2 {
   grid-column: 2/4;
+
+  @media all and (min-width: 768px) {
+      grid-column: 2;
+  }
 }
 
 .reason3 {
   grid-column: 2/4;
+
+  @media all and (min-width: 768px) {
+      grid-column: 3;
+  }
 }
 
 .btn-more-reasons {
@@ -29,6 +50,10 @@
     line-height: $font-space;
     text-align: center;
     padding-top: .6em;
+
+    @media all and (min-width: 768px) {
+        font-size: 24px;
+    }
 }
 
 .txt-reason {
@@ -37,4 +62,9 @@
     line-height: $font-space;
     text-align: center;
     padding-bottom: 2em;
+
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+        padding-top: 7%;
+    }
 }
