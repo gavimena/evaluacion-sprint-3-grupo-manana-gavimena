@@ -40,6 +40,10 @@
     @media all and (min-width: 768px) {
         margin-top: 1.8em;
     }
+
+    @media all and (min-width: 1280px) {
+        margin-top: 1.4em;
+    }
 }
 
 .ico-down {
@@ -59,6 +63,11 @@
     @media all and (min-width: 768px) {
         width: 12%;
         margin-left: 5%;
+    }
+
+    @media all and (min-width: 1280px){
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 

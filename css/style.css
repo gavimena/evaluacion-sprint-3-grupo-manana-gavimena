@@ -340,6 +340,7 @@ span {
 
   .hero-text-paragraph {
     font-size: 24px;
+    padding-top: 0%;
   }
 
   .grid-reasons {
@@ -383,6 +384,40 @@ span {
 
   .copyright {
     padding-top: 5%;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .insomnia-tips {
+    font-size: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .looking-window {
+    font-size: 32px;
+    line-height: 45px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .looking-text {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .hero-text-title {
+    font-size: 100px;
+    line-height: 132px;
+  }
+
+  .btn-down {
+    margin-top: 1.4em;
+  }
+
+  .btn-go {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 

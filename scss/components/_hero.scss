@@ -21,6 +21,11 @@
         font-size: 80px;
         line-height: 106px;
     }
+
+    @media all and (min-width: 1280px) {
+        font-size: 100px;
+        line-height: 132px;
+    }
 }
 
 //Text from hero section
@@ -33,5 +38,6 @@
 
     @media all and (min-width: 768px) {
         font-size: 24px;
+        padding-top: 0%;
     }
 }
