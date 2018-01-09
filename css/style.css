@@ -406,9 +406,25 @@ span {
     padding-right: 20%;
   }
 
+  .three-txt {
+    font-size: 32px;
+  }
+
   .hero-text-title {
     font-size: 100px;
     line-height: 132px;
+  }
+
+  .grid-reasons {
+    grid-column-gap: 5%;
+  }
+
+  .subtitle-reason {
+    padding-top: .1em;
+  }
+
+  .txt-reason {
+    padding-top: 4%;
   }
 
   .btn-down {
@@ -418,6 +434,14 @@ span {
   .btn-go {
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  .btn-more-reasons {
+    width: 20%;
+  }
+
+  .copyright {
+    padding-top: 3%;
   }
 }
 
