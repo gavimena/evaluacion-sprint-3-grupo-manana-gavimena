@@ -11,16 +11,25 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <img class="ico-menu" src="/images/ico-menu.svg" alt="menu bars">
-        </div>
+        <button class="btn-menu"><img class="ico-menu" src="../images/ico-menu.svg" alt="menu bars"></button>
     </header>
+    <nav class="navigation">
+        <div class="menu-hidden">
+            <ul class="menu-list">
+                <li class="menu_item"><a href="" class="menu_link"></a></li>
+                <li class="menu_item"><a href="#hero" class="menu_link">Anonymous Proxy</a></li>
+                <li class="menu_item"><a href="#looking" class="menu_link">Looking Through A Window</a></li>
+                <li class="menu_item"><a href="#reasons" class="menu_link">3 Reasons To Purchase</a></li>
+            </ul>
+            <button class="btn-close" title="Close"><img class="ico-close" src="../images/ico-close.svg" alt="menu bars"></button>
+        </div>
+    </nav>
     <main>
         <section id="hero">
             <h1 class="hero-text-title">ANONYMOUS PROXY</h1>
             <p class="hero-text-paragraph">In hac habitasse platea dictumst.</p>
             <div class="btn-down">
-                <img class="ico-down" src="/images/ico-scroll-down.svg" alt="arrow down">
+                <img class="ico-down" src="../images/ico-scroll-down.svg" alt="arrow down">
             </div>
         </section>
         <section id="looking">
@@ -47,7 +56,7 @@
         </section>
     </main>
     <div class="btn-up">
-        <img class="arrow-btn-up" src="/images/ico-arrow.svg" alt="up button">
+        <img class="arrow-btn-up" src="../images/ico-arrow.svg" alt="up button">
     </div>
     <footer id="footer">
         <div class="footer">
@@ -61,5 +70,6 @@
     </footer>
     <script src="js/ajax.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>

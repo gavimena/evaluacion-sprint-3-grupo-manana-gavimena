@@ -1,12 +1,33 @@
-//Dropdown menu
-.menu {
-    display: flex;
-    position: absolute;
-    width: 44px;
-    height: 44px;
-    background-color: $primary-color;
+//Navigation section
+.navigation {
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
+    transform: translateX(-150%);
+    transition: transform ease 1s;
+    background-color: rgba($secondary-color, .96);
+    width: 276px;
 }
 
-.ico-menu {
-    margin: 0 auto;
+//Container from navigation
+.menu-hidden {
+    position: relative;
+    height: 100%;
+}
+
+//Menu to show
+.menu-show .navigation {
+    transform: translateX(0);
+}
+
+//Elements list from menu
+.menu-list {
+    list-style: none;
+}
+
+.menu_item {
+    list-style-type: none;
+    border-top: 1 solid $light-color;
 }

@@ -1,3 +1,30 @@
+//Dropdown botton menu
+.btn-menu {
+    display: flex;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background-color: $primary-color;
+}
+
+.ico-menu {
+    margin: 0 auto;
+}
+
+//Button close menu shown
+.btn-close {
+    width: 44px;
+    height: 44px;
+    background-color: $action-color;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.ico-close {
+    margin: 0 auto;
+}
+
 //Button down from hero section
 .btn-down {
     display: flex;
