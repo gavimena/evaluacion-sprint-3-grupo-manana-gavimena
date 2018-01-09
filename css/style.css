@@ -308,13 +308,22 @@ span {
 }
 
 @media all and (min-width: 768px) {
+  .insomnia-tips {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .looking-window {
     font-size: 26px;
     line-height: 45px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .looking-text {
     font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .three-txt {
@@ -365,6 +374,7 @@ span {
 
   .btn-go {
     width: 12%;
+    margin-left: 5%;
   }
 
   .btn-more-reasons {
