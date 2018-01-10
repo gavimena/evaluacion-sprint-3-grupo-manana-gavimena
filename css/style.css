@@ -53,7 +53,7 @@
 }
 
 #hero {
-  background: url("/images/cover.jpg") no-repeat;
+  background: url("../images/cover.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
   min-height: 100vh;
