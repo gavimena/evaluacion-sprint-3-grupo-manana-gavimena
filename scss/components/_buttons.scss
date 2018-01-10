@@ -73,17 +73,17 @@
     }
 }
 
+.btn-over {
+    background-color: $action-color;
+    color: $secondary-color;
+}
+
 .txt-go {
     font-family: $primary-font;
     font-size: 1.2em;
     font-weight: 400;
     line-height: $font-space;
     margin: auto;
-}
-
-.btn-over-go {
-    background-color: $action-color;
-    color: $secondary-color;
 }
 
 //Button more reasons from reasons section
@@ -97,7 +97,6 @@
     margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 5.2em;
-    color: $secondary-color;
 
     @media all and (min-width: 768px) {
         width: 210px;
@@ -113,12 +112,8 @@
     font-size: 1.7em;
     font-weight: 400;
     line-height: $font-space;
+    color: $secondary-color;
     margin: auto;
-}
-
-.btn-over-reasons {
-    background-color: $secondary-color;
-    color: $action-color;
 }
 
 //Button up from footer

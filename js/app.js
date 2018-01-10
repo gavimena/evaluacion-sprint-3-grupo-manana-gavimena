@@ -15,7 +15,6 @@ function printReasons(json){
     grid.innerHTML += listHTML;
 }
 
-
 //add hover property to buttons through javascript
 function mouseOver(selector, className) {
     console.log('mouseOver');
