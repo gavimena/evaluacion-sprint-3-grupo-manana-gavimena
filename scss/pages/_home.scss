@@ -46,11 +46,10 @@
 .looking-text {
     margin-top: $container-space;
     font-family: $primary-font;
-    font-size: 18px;
+    @include text();
     font-weight: 400;
     color: $dark-color;
     text-align: left;
-    line-height: $font-space;
 
     @media all and (min-width: 768px) {
         font-size: 20px;

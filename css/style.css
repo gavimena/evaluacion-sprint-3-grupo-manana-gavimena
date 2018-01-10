@@ -31,10 +31,10 @@
   margin-top: 0.9em;
   font-family: "Roboto";
   font-size: 18px;
+  line-height: 30px;
   font-weight: 400;
   color: #304268;
   text-align: left;
-  line-height: 30px;
 }
 
 #reasons {
@@ -156,8 +156,8 @@
 .subtitle-reason {
   font-family: "Roboto Slab";
   font-size: 18px;
-  font-weight: 700;
   line-height: 30px;
+  font-weight: 700;
   text-align: center;
   padding-top: .6em;
 }

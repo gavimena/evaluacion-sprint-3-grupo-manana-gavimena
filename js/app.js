@@ -29,4 +29,14 @@ function mouseOut(selector, className) {
     element.classList.remove(className);
 }
 
-//more reasons button
+//add smooth scroll to section hero
+document.querySelector('.btn-up').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.btn-menu').scrollIntoView({ behavior: 'smooth' });
+});
+
+//add smooth scroll to looking section
+document.querySelector('.btn-down').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.insomnia-tips').scrollIntoView({ behavior: 'smooth' });
+});
