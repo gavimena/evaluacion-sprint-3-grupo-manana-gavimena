@@ -228,17 +228,17 @@
   color: #f26002;
 }
 
-.btn-over {
-  background-color: #f26002;
-  color: #ffffff;
-}
-
 .txt-go {
   font-family: "Roboto";
   font-size: 1.2em;
   font-weight: 400;
   line-height: 30px;
   margin: auto;
+}
+
+.btn-over-go {
+  background-color: #f26002;
+  color: #ffffff;
 }
 
 .btn-more-reasons {
@@ -253,6 +253,7 @@
   margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 5.2em;
+  color: #ffffff;
 }
 
 .txt-more-reasons {
@@ -260,8 +261,12 @@
   font-size: 1.7em;
   font-weight: 400;
   line-height: 30px;
-  color: #ffffff;
   margin: auto;
+}
+
+.btn-over-reasons {
+  background-color: #ffffff;
+  color: #f26002;
 }
 
 .btn-up {
@@ -284,7 +289,9 @@
 
 .arrow-btn-up {
   margin: 0 auto;
-}/* Components *//* Layout */.footer {
+}
+
+.footer {
   width: 100%;
   height: 128px;
   background-color: #304268;
