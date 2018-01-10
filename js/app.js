@@ -17,13 +17,11 @@ function printReasons(json){
 
 //add hover property to buttons through javascript
 function mouseOver(selector, className) {
-    console.log('mouseOver');
     var element = document.querySelector(selector);
     element.classList.add(className);
 }
 
 function mouseOut(selector, className) {
-    console.log('mouseOut');
     var element = document.querySelector(selector);
     element.classList.remove(className);
 }

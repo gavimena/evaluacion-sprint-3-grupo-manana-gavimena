@@ -73,7 +73,7 @@
     }
 }
 
-.btn-over {
+.btn-over-go {
     background-color: $action-color;
     color: $secondary-color;
 }
@@ -93,6 +93,7 @@
     border-radius: 22.5px;
     background-color: $action-color;
     border-color: $action-color;
+    color: $secondary-color;
     display: flex;
     margin: 0 auto;
     margin-top: 2em;
@@ -107,12 +108,16 @@
     }
 }
 
+.btn-over-reasons {
+    background-color: $secondary-color;
+    color: $action-color;
+}
+
 .txt-more-reasons {
     font-family: $primary-font;
     font-size: 1.7em;
     font-weight: 400;
     line-height: $font-space;
-    color: $secondary-color;
     margin: auto;
 }
 

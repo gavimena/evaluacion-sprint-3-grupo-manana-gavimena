@@ -228,7 +228,7 @@
   color: #f26002;
 }
 
-.btn-over {
+.btn-over-go {
   background-color: #f26002;
   color: #ffffff;
 }
@@ -247,6 +247,7 @@
   border-radius: 22.5px;
   background-color: #f26002;
   border-color: #f26002;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,12 +256,16 @@
   margin-bottom: 5.2em;
 }
 
+.btn-over-reasons {
+  background-color: #ffffff;
+  color: #f26002;
+}
+
 .txt-more-reasons {
   font-family: "Roboto";
   font-size: 1.7em;
   font-weight: 400;
   line-height: 30px;
-  color: #ffffff;
   margin: auto;
 }
 
