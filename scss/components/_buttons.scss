@@ -59,6 +59,7 @@
     border: solid 2px $action-color;
     margin-top: 2.5em;
     margin-bottom: 3em;
+    color: $action-color;
 
     @media all and (min-width: 768px) {
         width: 91px;
@@ -72,12 +73,16 @@
     }
 }
 
+.btn-over {
+    background-color: $action-color;
+    color: $secondary-color;
+}
+
 .txt-go {
     font-family: $primary-font;
     font-size: 1.2em;
     font-weight: 400;
     line-height: $font-space;
-    color: $action-color;
     margin: auto;
 }
 
